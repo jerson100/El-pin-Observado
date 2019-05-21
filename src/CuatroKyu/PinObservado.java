@@ -28,7 +28,7 @@ public class PinObservado {
 	  			for (int j = 0; j < matriz[i].length; j++) {
 	  				if (matriz[i][j] == Integer.parseInt("" + c)) {
 	  					dat[k++] = obtenerAdyacentes6(matriz, i, j).
-	  										toArray(new Integer[]{});
+	  							toArray(new Integer[]{});
 	  				}
 	  			}
 	  		}
@@ -37,9 +37,7 @@ public class PinObservado {
 	  	return d;
 	}
 
-	public static void getCode(Integer[][] m,
-							   String s,
-							   List<String> s2) {
+	public static void getCode(Integer[][] m,String s,List<String> s2) {
 		if (m.length==0) {
 			s2.add(s);
 	  	} else {
@@ -50,7 +48,7 @@ public class PinObservado {
 	}
 
 	public static List<Integer> obtenerAdyacentes6(Integer[][] matriz,
-	  											   int fila, int columna) {
+	  					       int fila, int columna) {
 		List<Integer> list = new ArrayList<>();
 		list.add(matriz[fila][columna]);
 		if(matriz[fila][columna]==0) {
