@@ -1,4 +1,4 @@
-# El-pin-Observado
+# El-pin-Observado2019
 Muy bien, detective, uno de nuestros colegas observó con éxito a nuestra persona objetivo, Robby, el ladrón. Lo seguimos a un almacén secreto, donde asumimos que encontramos todas las cosas robadas. La puerta de este almacén está asegurada por una cerradura electrónica de combinación. Desafortunadamente, nuestro espía no está seguro del PIN que vio cuando Robby lo ingresó.
 
 El teclado tiene el siguiente diseño:
